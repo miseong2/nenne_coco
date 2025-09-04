@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">영유아 위험 알림 앱</string>
+    <string name="real_time_video">실시간 영상</string>
+    <string name="danger_notification">위험 알림</string>
+    <string name="settings">환경 설정</string>
+    <string name="bluetooth_connection">블루투스 연결</string>
+</resources>

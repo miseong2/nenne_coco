@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_baby_icon" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/btn_real_time_video"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/light_blue"
+            android:text="@string/real_time_video" />
+
+        <Button
+            android:id="@+id/btn_danger_notification"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/light_blue"
+            android:text="@string/danger_notification" />
+
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/light_blue"
+            android:text="@string/settings" />
+
+        <Button
+            android:id="@+id/btn_bluetooth_connection"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/light_blue"
+            android:text="@string/bluetooth_connection" />
+
+    </GridLayout>
+
+</LinearLayout>
